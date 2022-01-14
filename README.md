@@ -2,27 +2,27 @@
 Little python script + dictionary to help solve Wordle puzzles
 
 ## Usage
-Usage: ./wordlesolve.py <letters in word> <placement>
+Usage: ./wordlesolve.py <letters in word> <letters not in word> <placement>
 
-- <letters in word> is just any letters that you know are in the word, without spaces, for example: vr
-- <placement> should have the actual placement for any letters that went green, with any unknowns marked as an underscore, for example __v_r
+- <letters in word> is just any letters that you know are in the word, without spaces, for example: fa
+- <letters not in word> is just any letters that you know are not in the word, without space, for example: bqwetl
+- <placement> should have the actual placement for any letters that went green, with any unknowns marked as an underscore, for example f___r
+
+ ```
+ If you can't fill out one of these fields because you don't yet have enough information, just replace it with a single question mark "?".
+ ```
 
 ## Demo
 
 ```
-wordlesolver$ python3 ./wordlesolver.py f __v_r
+wordlesolver$ python3 wordlesolver.py fa bqwetl f___r
 Loaded 15918 words from dictionary.
+fakir
 favor
-fever
-fiver
+fchar
+friar
 ```
 
-## Protips
-
-- Combine with grep to remove words containing letters that you know aren't in the solution... for example:
-
-```
-./wordlesolver.py at _____ | grep -v -e d -e i -e e -e u
-```
+## Protip
 
 - Try to use as many vowels as possible on the first guess, my first guess is always adieu.

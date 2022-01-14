@@ -8,9 +8,8 @@ Usage: ./wordlesolve.py <letters in word> <letters not in word> <placement>
 - <letters not in word> is just any letters that you know are not in the word, without space, for example: bqwetl
 - <placement> should have the actual placement for any letters that went green, with any unknowns marked as an underscore, for example f___r
 
- ```
- If you can't fill out one of these fields because you don't yet have enough information, just replace it with a single question mark "?".
- ```
+ ### Important
+ If you can't fill out one of these fields because you don't yet have enough information, just replace it with a single question mark "?".=
 
 ## Demo
 

@@ -2,7 +2,7 @@
 Little python script + dictionary to help solve Wordle puzzles
 
 ## Usage
-Usage: ./wordlesolve.py [letters in word] [letters not in word] [placemen]t
+Usage: ./wordlesolver.py [letters in word] [letters not in word] [placemen]t
 
 - [letters in word] is just any letters that you know are in the word, without spaces, for example: fa
 - [letters not in word] is just any letters that you know are not in the word, without space, for example: bqwetl

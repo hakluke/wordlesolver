@@ -26,3 +26,7 @@ friar
 
 - Try to use as many vowels as possible on the first guess, my first guess is always adieu.
 - Actually, according to [this](https://www.reddit.com/r/wordle/comments/s3fjmw/all_the_best_starting_words_ranked_mathematically/) you might be better to use `roate` as your first guess!
+
+## Want something better?
+
+I just discovered [this one](https://github.com/CrispyConductor/wordle-solver) - it uses an algorithm to determine the best guess in every scenario, the guess that will narrow down the pool of solutions as much as possible!

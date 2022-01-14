@@ -17,6 +17,12 @@ fever
 fiver
 ```
 
-## Protip
+## Protips
 
-Try to use as many vowels as possible on the first guess, my first guess is always adieu.
+- Combine with grep to remove words containing letters that you know aren't in the solution... for example:
+
+```
+./wordlesolver.py at _____ | grep -v -e d -e i -e e -e u
+```
+
+- Try to use as many vowels as possible on the first guess, my first guess is always adieu.

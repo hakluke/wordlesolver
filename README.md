@@ -25,3 +25,4 @@ friar
 ## Protip
 
 - Try to use as many vowels as possible on the first guess, my first guess is always adieu.
+- Actually, according to [this](https://www.reddit.com/r/wordle/comments/s3fjmw/all_the_best_starting_words_ranked_mathematically/) you might be better to use `roate` as your first guess!

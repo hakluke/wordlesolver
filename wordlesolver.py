@@ -12,6 +12,8 @@ if len(sys.argv) != 4:
     print("<letters in word> is just any letters that you know are in the word, without spaces, e.g. vr")
     print("<letters not in word> is any letters that you know are NOT in the word, without spaces, e.g. qxu")
     print("<placement> should have the actual placement for any letters that went green, with any unknowns marked as an underscore, for example __v_r")
+    print("")
+    print("NOTE: if you do not have enough information to fill out one of these fields, replace that field with a single question mark \"?\"")
     exit()
 
 dictionary = open("words.txt", "r")
